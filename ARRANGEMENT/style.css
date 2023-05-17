@@ -1,0 +1,54 @@
+body{
+    background-image: url(Background.jpg);
+    background-size:contained;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    text-align: justify; ;
+}
+
+.head{
+    color:yellow
+}
+
+.head2{
+    color:lime
+}
+
+.description{
+    color:rgb(248, 57, 57);
+    font-weight: bolder;
+}
+
+.facilities{
+    color:rgb(0, 255, 98);
+    font-weight: bolder;
+}
+
+.facilities-content{
+    color: rgb(250, 210, 32)
+}
+
+footer{
+    color:rgb(248, 57, 57);
+    font-weight: bolder;
+}
+
+#no{color:yellow;
+    font-weight: 30px;
+}
+
+a:link{color:greenyellow}
+a:visited{color:rgb(47, 255, 127)}
+a:hover{color:rgb(252, 255, 47)}
+
+img{
+    width: 150px;
+    border-radius: 20px;
+    border: 5px solid greenyellow;
+}
+
+img:hover{
+    transition: 0.75s ease-in-out;
+    width:200px;
+    border-color:rgb(252, 255, 47)
+}
